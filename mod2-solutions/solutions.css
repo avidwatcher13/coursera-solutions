@@ -6,7 +6,7 @@ h1 {
   font-family: Georgia sans-serif;
   text-align: center;
   color: black;
-  font-size: 27px;
+  font-size: 25px;
   text-transform: uppercase;
   font-style: italic;
 }
@@ -29,7 +29,7 @@ text-align: justify;
 position: relative;
 background-color: rgb(150, 1500, 150);}
 
-span { font-size: 20px;
+span { font-size: 25px;
   width: 150px;
   border: 1px solid black;
   font-weight: bold;
