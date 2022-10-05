@@ -14,7 +14,7 @@ h1 {
 
 
 p {
-  padding: 15px 5px 0px 5px;
+  padding: 15px 15px 15px 15px;
   font-family:Georgia serif ;
   font-size: 15px;
   position: relative;
@@ -22,9 +22,11 @@ p {
   }
 
 
-.box{border: 2px solid black;
+.box{border: 1px solid black;
 margin-top: 20px; 
 margin-right: 20px;
+margin-left: 20px;
+margin-bottom: 20px;
 padding: 3px;
 text-align: justify;
 position: relative;
@@ -36,20 +38,21 @@ span { font-size: 20px;
   font-weight: bold;
   text-align: center;
   float: right; top: 0; right: 0; margin: 0;
-    position: absolute; }
+    position: absolute;
+    color: black; }
 
 
 #RICE{
-  color: rgb(230, 40, 00);
+  color: rgb(230, 400, 200);
   background-color:firebrick;
 }
 
-#BEANS{ color: skyblue;
+#BEANS{ color: rgb(150, 180, 210);
   background-color: firebrick;
 }
 }
 #SOUP{
-  color: rgb(220, 40, 70);
+  color: rgb(220, 240, 260);
   background-color: firebrick;
 }
 .row {  width: 100%;
@@ -99,7 +102,8 @@ span { font-size: 20px;
 }
 
 /********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) 
+{
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float:left;
       }
@@ -139,8 +143,9 @@ span { font-size: 20px;
   .col-md-12 {
     width: 100%;
   }
-  /********** small devices only **********/
-@media (min-width: 767px) {
+}
+/********** small devices only **********/
+@media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
   float: left;  }
   .col-sm-1 {
